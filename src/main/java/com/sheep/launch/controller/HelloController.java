@@ -12,4 +12,9 @@ public class HelloController {
     public String hello() {
         return "hello world ";
     }
+
+    @GetMapping("/world")
+    public String world() {
+        return "hello world ";
+    }
 }
